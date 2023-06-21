@@ -1,0 +1,5 @@
+first_size = int(input('Введите количество элементов первого массива'))
+print(first_array := [int(input(f'Введите элемент: ')) for _ in range(0, first_size)])
+second_size = int(input('Введите количество элементов первого массива'))
+print(second_array := [int(input(f'Введите элемент: ')) for _ in range(0, second_size)])
+print(result_array := [i for i in first_array if i not in second_array])
